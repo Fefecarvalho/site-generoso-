@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Votaçao</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<nav>
+    <div class="nav-bar">
+        <ul>
+            <!--?n funcionou--> 
+            <li class="none"><a href="http://localhost/coisas-feira/site-feira/"><img src="img/logo.png" alt=""></a></li>
+            <li><a class="changa" href="http://localhost/coisas-feira/projeto-feira/index.html">Votação</a></li>
+            <li><a class="changa" href="http://localhost/coisas-feira/projeto-feira/sobreproj.html">Conheça os projetos</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <h1 class="spicy-rice-regular borda_texto">Vote no projeto em que você gostou mais !</h1>
+<br>
+    <div class="form">
+        <form action="votacao.php" method="post">
+
+            <label for="nome">NOME:</label><br>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome aqui...">
+<br>
+            <label for="escola">ESCOLA:</label><br>
+            <select name="escola" id="escola">
+                <option value="generoso marques">C.E.CGM.Dr.GENEROSO MARQUES</option>
+                <option value="o caminho">COLÉGIO O CAMINHO</option>
+                <option value="nossa senhora das graças">COLÉGIO NOSSA SENHORA DAS GRAÇAS</option>
+                <option value="silvio tavares">C.E SILVIO TAVARES</option>
+                <option value="carolina lupion">C.E.CGM.DONA CAROLINA LUPION</option>
+                <option value="lucy requiao">C.E LUCY REQUIÃO DE MELO E SILVA</option>
+                <option value="angelina ricci">C.E Angelina Ricci Vezozzo</option>
+                <option value="colegio agricola">C.E.E.P. Mohamad Ali Hamzé</option>
+                <option value="não sou aluno">NÃO SOU ALUNO</option>
+            </select>
+<br>
+
+
+
+<h3 class="spicy-rice-regular borda_h3">Sobre nossos projetos:</h3>
+<br>
+            <label for="voto">ESCOLHA O PROJETO</label><br>
+            <select id="voto" name="voto" >
+                <option value="carinho com sensor">Carinho com sensor</option>
+                <option value="pedagio inteligente">Pedágio inteligente</option>
+                <option value="irrigador automatico">Irrigador automático</option>
+                <option value="blazebuster">Blazebuster</option>
+            </select>
+<br>
+
+<h3 class="spicy-rice-regular borda_h3"> Sobre a nossa feira:</h3>
+
+<br>
+
+            <label for="sala">QUAL SALA VOCÊ GOSTOU MAIS:</label><br>
+            <select name="sala" id="sala">
+                <option value="Linguagens">Linguagens</option>
+                <option value="robótica">Robótica</option>
+                <option value="matematica">Matemática</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+<br>
+            <label for="nota">DE UMA NOTA DE 0 A 10 PARA A FEIRA</label><br>
+            <select name="nota" id="nota">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+
+            <br>
+<input type="submit">
+
+        </form>
+    </div>
+
+</body>
+</html>
